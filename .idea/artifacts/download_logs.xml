@@ -1,0 +1,44 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="download_logs">
+    <output-path>$PROJECT_DIR$/out/artifacts/download_logs</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.arrowmaker.logs.app.DownloadApp" />
+        <option name="convertCss2Bin" value="true" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="download_logs.jar">
+        <element id="module-output" name="download_logs" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/kotlin/com/arrowmaker/logs/app/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+      <element id="module-output" name="download_logs.main" />
+      <element id="library" level="project" name="Gradle: com.github.bkenn:kfoenix:0.1.2-SNAPSHOT" />
+      <element id="library" level="project" name="Gradle: no.tornado:tornadofx:1.7.17" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.61" />
+      <element id="library" level="project" name="Gradle: org.scream3r:jssc:2.8.0" />
+      <element id="library" level="project" name="Gradle: com.squareup.okio:okio:1.15.0" />
+      <element id="library" level="project" name="Gradle: io.jenetics:jpx:1.3.0" />
+      <element id="library" level="project" name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.9.6" />
+      <element id="library" level="project" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.8.8" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.61" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.2.60" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.61" />
+      <element id="library" level="project" name="Gradle: org.glassfish:javax.json:1.1.2" />
+      <element id="library" level="project" name="Gradle: com.jfoenix:jfoenix:8.0.4" />
+      <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.6" />
+      <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+      <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.6" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.2.61" />
+      <element id="library" level="project" name="Gradle: org.jetbrains:annotations:13.0" />
+      <element id="library" level="project" name="Gradle: javax.json:javax.json-api:1.1.2" />
+    </root>
+  </artifact>
+</component>
